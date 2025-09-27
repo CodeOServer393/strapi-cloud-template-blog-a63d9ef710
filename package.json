@@ -21,11 +21,16 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "styled-components": "^6.0.0"
+    "styled-components": "^6.0.0",
+    "@swc/core": "1.7.35"
+  },
+  "optionalDependencies": {
+    "@swc/core-darwin-arm64": "1.7.35",
+    "@swc/core-linux-x64-gnu": "1.7.35"
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=18.0.0 <=22.x.x",
-    "npm": ">=6.0.0"
+    "node": "22.x",
+    "npm": ">=11.0.0"
   }
 }
