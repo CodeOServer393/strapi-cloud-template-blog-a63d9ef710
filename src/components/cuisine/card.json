@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_cuisine_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Link_To": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

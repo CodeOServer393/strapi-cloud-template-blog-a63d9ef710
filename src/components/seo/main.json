@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_seo_mains",
+  "info": {
+    "displayName": "main",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    },
+    "Site_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Keywords": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "faq": {
+      "type": "component",
+      "component": "seo.faq",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

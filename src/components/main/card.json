@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_main_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_seo_faqs",
+  "info": {
+    "displayName": "faq",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string",
+      "required": true
+    },
+    "Answer": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Our_Villa": {
+      "type": "component",
+      "component": "homepage.card",
+      "repeatable": false,
+      "required": true
+    },
+    "Our_Cuisine": {
+      "type": "component",
+      "component": "homepage.card",
+      "repeatable": false,
+      "required": true
+    },
+    "Our_Pool_and_Spa": {
+      "type": "component",
+      "component": "homepage.card",
+      "repeatable": false,
+      "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "component": "seo.main",
+      "repeatable": false,
+      "required": true
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "cuisinepages",
+  "info": {
+    "singularName": "cuisinepage",
+    "pluralName": "cuisinepages",
+    "displayName": "Cuisinepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Cards": {
+      "type": "component",
+      "component": "cuisine.card",
+      "repeatable": true
+    },
+    "SEO": {
+      "type": "component",
+      "component": "seo.main",
+      "repeatable": false
+    }
+  }
+}
